@@ -1,0 +1,77 @@
+/* Basic styling */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #5C6BC0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #3f51b5;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
