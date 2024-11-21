@@ -28,7 +28,7 @@ h1 {
 }
 
 .input-group label {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #555;
 }
 
@@ -77,11 +77,6 @@ h1 {
 
   .input-group input,
 .input-group textarea {
-  width: 50%;
-  padding: 12px;
-  margin-top: 8px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 95%;
 }
 }
