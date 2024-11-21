@@ -27,11 +27,11 @@
   .room h3 {
     font-size: 24px;
     margin-top: 15px;
-    height: 45px;
+    height: 30px;
   }
 
   .room p{
-    height: 70px;
+    height: 45px;
   }
 
   .room-info {
@@ -75,8 +75,23 @@
 
     .room button{
       text-align: center;
-      padding: 7px 9px;
+      padding: 7px 10px;
       font-size: 12px;
+    }
+
+    .room h3{
+      font-size: 15px;
+    }
+
+    .room p{
+      font-size: 14px;
+    } 
+    .room h5{
+      font-size: 0.8rem;
+    }
+
+    .room h5 span{
+      font-size: 1rem;
     }
   }
   
