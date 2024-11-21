@@ -20,12 +20,26 @@
   
   .room img {
     width: 100%;
+    height: 200px;
     border-radius: 10px;
   }
   
   .room h3 {
     font-size: 24px;
     margin-top: 15px;
+    height: 45px;
+  }
+
+  .room p{
+    height: 70px;
+  }
+
+  .room-info {
+    padding: 16px;
+    flex-grow: 1; /* Ensures this section takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pushes the button to the bottom */
   }
   
   .room button{
@@ -52,5 +66,11 @@
 
   .room button:hover {
     background-color: #2980b9;
+  }
+
+  @media (max-width: 768px){
+    .room img{
+      height: 100px;
+    }
   }
   
