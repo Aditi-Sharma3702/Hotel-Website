@@ -26,7 +26,7 @@ const Rooms = () => {
           <h3 >Deluxe Room</h3>
           <p>Comfort and style with modern amenities.</p>
           <div className="room-info">
-            <h5>Starting from <span>$399/night</span></h5>
+            <h5>Starting from <span>$499/night</span></h5>
             <button onClick={handleClick}>Book Now</button>
           </div>
           
@@ -36,7 +36,7 @@ const Rooms = () => {
           <h3 >Standard Room</h3>
           <p>Cozy and affordable, perfect for a short stay.</p>
           <div className="room-info">
-            <h5>Starting from <span>$399/night</span></h5>
+            <h5>Starting from <span>$599/night</span></h5>
             <button onClick={handleClick}>Book Now</button>
           </div>
           

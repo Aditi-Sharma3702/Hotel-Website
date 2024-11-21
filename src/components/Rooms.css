@@ -72,5 +72,9 @@
     .room img{
       height: 100px;
     }
+
+    .room button{
+      text-align: center;
+    }
   }
   
