@@ -75,6 +75,8 @@
 
     .room button{
       text-align: center;
+      padding: 7px 9px;
+      font-size: 12px;
     }
   }
   
